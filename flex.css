@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 4px;
+    box-shadow: 1px 1px 3px black;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    height: 0.5vh;
+    width: 11vw;
+    padding: 1vh 0vh 4vh 2vh;
+    justify-content:space-evenly;
+    margin-left: 2%;
+}
+.logo>p{
+    padding-left: 0.5px;
+}
+.logo:hover{
+    cursor: pointer;
+    background-color: rgb(200, 197, 197);
+}
+.lies>ol{
+    list-style: none;
+    height: 4.5vh;
+    width: 500px;
+    display: flex;
+}
+.lies>ol>li{
+    padding-top: 8px;
+    box-sizing: border-box;
+    height: 135%;
+    width: 130px;
+    text-align: center;
+}
+.lies>ol>li:hover{
+    cursor: pointer;
+    background-color: rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+.one{
+    height:110vh;
+    width: 100%;
+    background-image: url(./architect.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+    background-size: 100% 125%;
+}
+.one>p{
+    padding-left: 1vw;
+}.one>h2{
+    font-size: 36px;
+    height: 8vh;
+    width: 6vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 65, 65, 0.918);
+}
+.two{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.two>h3{
+    font-weight: normal;
+    margin:20px 0  0 50px;
+}
+.three-main{
+    height: 70vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.three{
+    background-image: url(./house2.jpg);
+    height: 33vh;
+    background-size: 100% 100%;
+    width: 23%;
+}
+.three-1>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+/* .three-main div:nth-child(2){
+} */
+.three-1{
+    background-image: url(./house5.jpg);
+}
+.three-2{
+    /* height: 33vh;
+    background-size: 100% 100%;
+    width: 23%; */
+    background-image: url(./house2.jpg);
+}
+.three-2>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.three-3>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.three-4{
+   background-image: url(./house4.jpg);
+   height: 33vh;
+   background-size: 100% 100%;
+   width: 23%;
+}
+.three-4>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.three-5{
+   background-image: url(./house5.jpg);
+   height: 33vh;
+   background-size: 100% 100%;
+   width: 23%;
+}
+.three-5>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.three-6{
+   background-image: url(./house4.jpg);
+   height: 33vh;
+   background-size: 100% 100%;
+   width: 23%;
+}
+.three-6>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.three-7{
+   background-image: url(./house3.jpg);
+   height: 33vh;
+   background-size: 100% 100%;
+   width: 23%;
+}
+.three-7>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.three-8{
+    background-image: url(./house2.jpg);
+    height: 33vh;
+   background-size: 100% 100%;
+   width: 23%;
+}
+.three-8>h4{
+    background-color: black;
+    color: white;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.four{
+    height: 10vh;
+    width: 97%;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    margin: 4vh 0 0 2vw;
+}
+.four>h2{
+    font-weight: normal;
+}
+.fifth{
+    height: 20vh;
+    width: 98%;
+    margin: 4vh 0 0 2vw;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+}
+.six{
+    height: 71vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    justify-content: space-evenly;
+}
+.same{
+    height: 65vh;
+    width: 22%;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.237),rgba(0, 0, 0, 0.308)),url(./team1.jpg);
+}
+.six-2{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.237),rgba(0, 0, 0, 0.308)),url(./team2.jpg);
+}
+.six-3{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.237),rgba(0, 0, 0, 0.308)),url(./team3.jpg);
+}.six-4{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.237),rgba(0, 0, 0, 0.308)),url(./team4.jpg);
+}
+.same>h2{
+    margin-top: 39vh;
+    font-weight: normal;
+}
+.same>h4{
+    margin-top: 2vh;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.558);
+}
+.same>p{
+    margin-top: 2vh;
+}
+.same>button{
+    height: 6vh;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.11);
+    border: none;
+}
+.same>button:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+    cursor: pointer;
+}
+.seven-1{
+    height: 8vh;
+    width: 96%;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    margin: 4vh 0 0 2vw;
+}
+.seven-1>h3{
+    font-weight: normal;
+    font-size: 24px;
+}
+.seven-2>p{
+    margin: 2vh 0 0 2vw;
+}
+.sevenA{
+    height: 6vh;
+    width: 95%;
+    margin: 3vh 0 0 2vw;
+    padding-left: 1vw;
+    border: 1px solid rgba(0, 0, 0, 0.333);
+}
+.seven-4{
+    margin-top: 5vh;
+}
+.seven-4>button{
+    height: 7vh;
+    width: 12vw;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.eight{
+    height: 90vh;
+    width: 96%;
+    margin: 12vh 0 0 2vw; 
+}
+.eight>img{
+height: 100%;
+width: 100%;
+}
+.nine{
+    height: 9vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.nine>p{
+    padding-left: 0.5vw;
+}
+.nine>p:hover{
+color: green;
+cursor: pointer;
+text-decoration: underline;
+}
